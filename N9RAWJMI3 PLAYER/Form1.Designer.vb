@@ -41,7 +41,7 @@ Partial Class Form1
         'btnBack
         '
         Me.btnBack.Font = New System.Drawing.Font("Segoe UI Symbol", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBack.Location = New System.Drawing.Point(12, 12)
+        Me.btnBack.Location = New System.Drawing.Point(12, 25)
         Me.btnBack.Name = "btnBack"
         Me.btnBack.Size = New System.Drawing.Size(50, 50)
         Me.btnBack.TabIndex = 1
@@ -61,7 +61,7 @@ Partial Class Form1
         'btnForward
         '
         Me.btnForward.Font = New System.Drawing.Font("Segoe UI Symbol", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnForward.Location = New System.Drawing.Point(149, 12)
+        Me.btnForward.Location = New System.Drawing.Point(149, 25)
         Me.btnForward.Name = "btnForward"
         Me.btnForward.Size = New System.Drawing.Size(50, 50)
         Me.btnForward.TabIndex = 3
@@ -116,9 +116,9 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.N9RAWJMI3_PLAYER.My.Resources.Resources.ca5b27f76505383800dafd65ca2a9d7a
-        Me.PictureBox1.Location = New System.Drawing.Point(161, 133)
+        Me.PictureBox1.Location = New System.Drawing.Point(154, 126)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(40, 40)
+        Me.PictureBox1.Size = New System.Drawing.Size(59, 59)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
@@ -144,6 +144,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnForward)
         Me.Controls.Add(Me.btnPlayPause)
         Me.Controls.Add(Me.btnBack)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False

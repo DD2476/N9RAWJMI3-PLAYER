@@ -48,10 +48,6 @@ Public Class Form1
 
             End If
 
-        Else
-
-            isPlaying = False
-
         End If
 
     End Sub
@@ -126,6 +122,10 @@ Public Class Form1
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
 
         Form2.ListBox1.Items.RemoveAt(Form2.ListBox1.SelectedIndex)
+
+        mp.URL = ""
+
+        isPlaying = False
 
     End Sub
 

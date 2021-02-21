@@ -14,4 +14,16 @@
 
     End Sub
 
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+
+        Form1.isPlaying = False
+
+        Form1.mp.URL = ListBox1.SelectedItem
+
+        Form1.isPlaying = True
+
+        Form1.mp.controls.play()
+
+    End Sub
+
 End Class
